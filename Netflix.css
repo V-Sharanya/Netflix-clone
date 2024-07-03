@@ -1,0 +1,883 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2d2d2d;
+}
+.main{
+    margin: 0px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)20%, rgba(0,0,0,0.8)80%),url(Netflix/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg);
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+    margin-bottom: 0px;
+}
+.nav-bar{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    display: flex;
+}
+.logo{
+    float: left;
+    margin-top: 0px;
+    padding-top: 0%;
+    width: 300px;
+    height: 20vh;
+    padding-left: 120px;
+}
+.logo-pic{
+    width: 200px;
+    height: 70px;
+    padding-top: 0%;
+    margin-top: 0px;
+}
+.Sign-in{
+    float: right;
+    width: 400px;
+    height: 20vh;
+    position: relative;
+    display: flex;
+    padding-left: 470px;
+    margin-top: 25px;
+}
+.dropdown{
+    position: relative;
+    width: 130px;
+    height: 35px;
+    background: #1a1919;
+    color: white;
+    border: 0.1px solid white;
+    font-weight: 540;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.ri-translate-2{
+    float: left;
+    padding-left: 0px;
+    padding-right: 2px;
+    margin-left: 2px;
+}
+.ri-arrow-down-s-fill{
+    padding-left: 3px;
+}
+.btn{
+    width: 80px;
+    height: 35px;
+    background: #D50000;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.bottom{
+    position: relative;
+    width:100%;
+    height: 80vh;
+    align-content: center;
+    float: left;
+}
+.bottom h1{
+    color: white;
+    padding-left: 190px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+.bottom h4{
+    color: white;
+    padding-left: 450px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.bottom h3{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    padding-left: 310px;
+}
+.log-in{
+    display: flex;
+    align-content: center;
+    width: 700px;
+    height: 50px;
+    padding-left: 340px;
+}
+.log-in .email{
+    width: 340px;
+    height: 60px;
+    background: rgba(0,0,0,0.3);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 20px;
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #BDBDBD;
+}
+.log-in .start{
+    width: 200px;
+    height: 60px;
+    background: #D50000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.main2{
+    width: 100%;
+    height: 90vh;
+    background: black;
+    position: relative;
+    margin-top: 10px;
+}
+.left-side{
+    float: left;
+    width: 500px;
+    height: 90vh;
+    padding-left: 150px;
+}
+.left-side h1{
+    color: white;
+    margin-top: 150px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+.left-side h4{
+    color: white;
+    margin-top: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;    
+}
+.right-side{
+    width: 600px;
+    height: 90vh;
+    float: right;
+}
+.tv-container{
+    position: relative;
+    float: right;
+    width: 550px;
+    height: 300px;
+    margin-top: 130px;
+    padding-left: 10px;
+}
+.tv{
+    width:90%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+.tv-gif{
+    position: absolute;
+    top: 2.2%;
+    left: 13.5%;
+    width: 64%; 
+    height: 70%;
+    z-index: 1;
+}
+.main3{
+    width: 100%;
+    height: 90vh;
+    background: black;
+    position: relative;
+    margin-top: 10px;
+}
+.side1{
+    width: 50%;
+    height: 90vh;
+    float: left;
+}
+.download{
+    float: left;
+    padding-left: 20px;
+    position: relative;
+}
+.phn{
+    height: 300px;
+    width: 470px;
+    padding-left: 130px;
+    margin-top: 70px;
+    z-index: 0;
+    position: absolute;
+}
+.phn-window{
+    width: 270px;
+    height: 100px;
+    display: flex;
+    background-color: rgba(0,0,0,0.9);
+    border: 2px solid #616161;
+    border-radius: 10px;
+    margin-left: 230px;
+    z-index: 1;
+    position: relative;
+    margin-top: 270px;
+}
+.poster{
+    width: 60px;
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.para p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.para span{
+    color: rgb(8, 8, 206);
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 3px;
+}
+.dwnld{
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin-top: 12px;
+}
+.side2{
+    width: 50%;
+    height: 90vh;
+    float: right;
+}
+.side2 h1{
+    color: white;
+    text-align: left;
+    margin-top: 100px;
+    width: 450px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.side2 h4{
+    color: white;
+    text-align: left;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.main4{
+    background: black;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin-top: 10px;
+}
+.left{
+    float: left;
+    width: 55%;
+    height: 90vh;
+}
+.left h1{
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 150px;
+    padding-left: 150px;
+    margin-bottom: 0px;
+}
+.left h4{
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-left: 150px;
+}
+.right{
+    float: right;
+    width: 45%;
+    height: 90vh;
+}
+.show{
+    position: relative;
+    margin-top: 60px;
+}
+.show-gif{
+    height: 150px;
+    width: 280px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.dev{
+    width: 450px;
+    height: 350px;
+    position: relative;
+}
+.main5{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background: black;
+    margin-top: 10px;
+}
+.pehla{
+    float: left;
+    width: 50%;
+    height: 80vh;
+}
+.kids{
+    width: 500px;
+    height: 350px;
+    margin-top: 80px;
+    padding-left: 150px;
+}
+.dusra{
+    float: right;
+    width: 50%;
+    height: 80vh;
+}
+.dusra h1{
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+    width: 500px;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.dusra h4{
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    width: 500px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.main6{
+    width: 100%;
+    height: 170vh;
+    position: relative;
+    background: black;
+    margin-top: 10px;
+}
+.main6 h1{
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 0px;
+}
+.buttons{
+    width: 1000px;
+    height: 90vh;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.btn1{
+    width: 950px;
+    height: 80px;
+    background: #2d2d2d;
+    border: none;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.ri-add-line{
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+.btn2{
+    width: 950px;
+    height: 80px;
+    background: #2d2d2d;
+    border: none;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.btn3{
+    width: 950px;
+    height: 80px;
+    background: #2d2d2d;
+    border: none;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.btn4{
+    width: 950px;
+    height: 80px;
+    background: #2d2d2d;
+    border: none;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.btn5{
+    width: 950px;
+    height: 80px;
+    background: #2d2d2d;
+    border: none;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.btn6{
+    width: 950px;
+    height: 80px;
+    background: #2d2d2d;
+    border: none;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.cls{
+    width: 100%;
+    height: 10vh;
+}
+.cls h3{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    padding-left: 310px;
+    margin-top: 40px;    
+}
+.main7{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background: black;
+    margin-top: 10px;
+    color: #9E9E9E;
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+}
+.main7 h5{
+    font-size: 17px;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-top: 0px;
+}
+a{
+    color: #9E9E9E;
+}
+.blocks{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+}
+.block-side1{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+}
+.block-side2{
+    flex-direction: row;
+    display: flex;
+    width: 50%;
+    float: right;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.block1 a{
+    margin-bottom: 15px;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    padding-left: 80px;
+}
+.block2 a{
+    margin-bottom: 15px;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+.block3 a{
+    margin-bottom: 15px;
+}
+.block4{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding-left: 80px;
+}
+.block4 a{
+    margin-bottom: 15px;
+}
+.main7 .dropdown{
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.main7 h4{
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+@media(max-width:500px){
+    .logo{
+        float: left;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+    .logo-pic{
+        width: 150px;
+        height: 60px;
+    }
+    .Sign-in{
+        padding-left: 80px;
+        margin-top: 30px;
+    }
+    .btn{
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .bottom{
+        width: 100%;
+        height: 90vh;
+    }
+    .bottom h1{
+        padding-left: 10px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+    }
+    .bottom h4{
+        padding-left: 10px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+    }
+    .bottom h3{
+        padding-left: 10px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+    }
+    .log-in{
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        width: 400px;
+    }
+    .log-in .email{
+        margin-left: 40px;
+        width: 350px;
+        margin-bottom: 20px;
+        height: 100px;
+    }
+    .log-in .start{
+        margin-left: 130px;
+        height: 100px;
+    }
+    .main2{
+        width: 100%;
+        height: 120vh;
+    }
+    .left-side{
+        height: 40vh;
+        padding-left: 40px;
+    }
+    .left-side h1{
+        font-size: 35px;
+        margin-top: 50px;
+        padding-left: 80px;       
+    }
+    .left-side h4{
+        width: 400px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .right-side{
+        float: left;
+        width: 100%;
+        height: 60vh;
+    }
+    .tv-container{
+        margin-top: 20px;
+        width: 90%;
+        float: left;
+        padding-left: 50px;
+    }
+    .tv-gif{
+        left: 21%;
+        width: 59%;
+        height: 55%;
+    }
+    .main3{
+        width: 100%;
+        height: 130vh;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    .side1{
+        float: left;
+        height: 60vh;
+        width: 100%;
+        order: 2;
+    }
+    .download{
+        height: 60vh;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .phn{
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .phn-window{
+        margin-left: 100px;
+        margin-top: 230px;
+    }
+    .side2{
+        float: left;
+        order: 1;
+        width: 100%;
+        height: 40vh;
+    }
+    .side2 h1{
+        font-size: 30px;
+        padding-left: 20px;
+        text-align: center;
+        width: 90%;
+        margin-top: 50px;
+    }
+    .side2 h4{
+        font-size: 15px;
+        padding-left: 30px;
+        width: 80%;
+        text-align: center;
+    }
+    .main4{
+        width: 100%;
+        height: 130vh;
+    }
+    .left{
+        width: 100%;
+        height: 40vh;
+    }
+    .left h1{
+        font-size: 30px;
+        margin-top: 50px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .left h4{
+        font-size: 15px;
+        padding-left: 70px;
+        text-align: center;
+        width: 70%;
+    }
+    .right{
+        float: left;
+        width: 100%;
+        height: 80vh;
+    }
+    .show{
+        margin-top: 0px;
+    }
+    .main5{
+        width: 100%;
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .pehla{
+        width: 100%;
+        height: 60vh;
+        order: 2;
+    }
+    .kids{
+        padding-left: 20px;
+        margin-top: 20px;
+        width: 470px;
+    }
+    .dusra{
+        order: 1;
+        width: 100%;
+        height: 40vh;
+        float: left;
+    }
+    .dusra h1{
+        width: 90%;
+        font-size: 30px;
+        margin-top: 50px;
+        padding-left: 70px;
+    }
+    .dusra h4{
+        font-size: 20px;
+        width: 90%;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .main6{
+        width: 100%;
+        height: 190vh; 
+     }
+     .main6 h1{
+        font-size: 30px;
+        padding-top: 30px;
+        margin-top: 0px;
+        width: 90%;
+        height: 10vh;
+        padding-left: 25px;
+     }
+     .buttons{
+        width: 400px;
+        padding-left: 50px;
+        height: 110vh;
+     }
+     .btn1{
+        width: 400px;
+        font-size: 25px;
+     }
+     .btn2{
+        width: 400px;
+        font-size: 25px;
+     }
+     .btn3{
+        width: 400px;
+        font-size: 25px;
+     }
+     .btn4{
+        width: 400px;
+        font-size: 25px;
+     }
+     .btn5{
+        width: 400px;
+        font-size: 25px;
+     }
+     .btn6{
+        width: 400px;
+        font-size: 25px;
+     }
+     .cls{
+        width: 90%;
+        height: 30vh;
+     }
+     .cls h3{
+        padding-left: 70px;
+        width: 80%;
+        font-size: 16px;
+        text-align: center;
+     }
+    .main7{
+        width: 100%;
+        height: 100vh;
+        color: #9E9E9E;
+        font-weight: 400;
+    }
+    .main7 h5{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    a{
+        color: #9E9E9E;
+    }
+    .blocks{
+        height: 50vh;
+        display: flex;
+        width: 100%;
+    }
+    .block-side1{
+        padding-left: 20px;
+        flex-direction: column;
+    }
+    .block1{
+        float: left;
+    }
+    .block1 a{
+    margin-bottom: 10px;
+    } 
+    .block2{
+        float: left;
+        padding-left: 0px;
+    }
+    .block2 a{
+        margin-bottom: 10px;
+    }
+    .block-side2{
+        float: right;
+        flex-direction: column;
+    }
+    .block3{
+        float: left;
+        width: 300px;
+        flex-direction: column;
+    }
+    .block3 a{
+        margin-bottom: 10px;
+    }
+    .block4{
+        padding-left: 0px;
+    }
+    .block4 a{
+        margin-bottom: 10px;
+    }
+    .main7 .dropdown{
+        width: 130px;
+        position: relative;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .main7 h4{
+        padding-left: 20px; 
+        margin-top: 20px;     
+    }
+}
